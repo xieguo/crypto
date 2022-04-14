@@ -1,0 +1,20 @@
+{
+    "name": "thank/crypto",
+    "description": "Encrypt and decrypt data for PHP, 前端crypto.js + PHP的加解密方案",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-openssl": ">=1.1.0"
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Thank",
+            "email": "xieguo2007@126.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "thank\\": "src"
+        }
+    }
+}
