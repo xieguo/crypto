@@ -2,7 +2,7 @@
 
 namespace thank\crypto;
 
-class  Crypto
+class  AES
 {
     // 加密 KEY
     protected $key = '654mca0l38b489d9f306a5b8e105334b';
