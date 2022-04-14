@@ -1,13 +1,14 @@
 {
     "name": "thank/crypto",
     "description": "Encrypt and decrypt data for PHP, 前端crypto.js + PHP的加解密方案",
-    "version": "v1.0.0",
+    "version": "1.0.0",
     "keywords": [
         "encrypt",
         "对称加密",
         "openssl加密"
     ],
-    "homepage": "http://xieguo.com/",
+    "type": "library",
+    "homepage": "https://xieguo.com/",
     "license": "Apache-2.0",
     "authors": [
         {
