@@ -20,9 +20,9 @@
     // 新建实例
     $aes = new AES($config);
     
-    // 加密
-    $aes->Encrypt($data, $method);
+    // 加密 参数$data为数组 $method 的默认值是：AES-256-CBC 返回值是 string
+    $aes->encrypt($data, $method);
     
-    // 解密
-    $aes->Decrypt($data, $method);
+    // 解密 参数$string为encode后的加密串 $method 的默认值是：AES-256-CBC 返回值是 array
+    $aes->eecrypt($string, $method);
 ```
