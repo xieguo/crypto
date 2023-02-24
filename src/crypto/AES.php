@@ -54,6 +54,6 @@ class  AES
         $str = openssl_decrypt(str_replace($search, $replace, $encrypt), $method, $this->key, OPENSSL_ZERO_PADDING, $this->iv);
         $plaintext = substr($str, 0, strrpos($str, "}") + 1);
 
-        return json_decode($plaintext, true);
+        return json_decode($plaintext, true) ?? [];
     }
 }
